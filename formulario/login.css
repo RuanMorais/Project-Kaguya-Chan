@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background: #0f0f0f /*url(file:///C:/Users/Família%20Morais/Desktop/js%20html%20css/Project%20Kaguya%20Chan/entre.jpg)*/;
+    width: 100%;
+    height: 100vh;
+    font-family: cursive;
+}
+.form{
+    border: 2px solid red;
+    position: relative;
+    background: #fff;
+    border-radius: 20px;
+    padding-top: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 500px;
+    align-items: center;
+}
+.title{
+    margin-left: 55px;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.input{
+    border-radius: 20px;
+    border: 2px solid red;
+    width: 300px;
+    padding: 3px;
+    margin: 10px 50px 10px 50px;
+}
+label{
+    margin-left: 55px;
+}
+.input input{
+    width: 95%;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+    margin-left: 7px;
+    transform: translateY(-11%);
+    font-size: 13px;
+}
+.btn{
+    margin-top: 27.5px;
+    width: 100%;
+    text-align: center;
+}
+.btn button{
+    font-family: sans-serif;
+    background: linear-gradient(540deg, black 20%, #9e0000 80%);
+    width: 250px;
+    height: 40px;
+    border: none;
+    color: aliceblue;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+.btn button:hover{
+    background: linear-gradient(540deg, black 20%, #700c0c 80%);
+}

@@ -1,0 +1,346 @@
+/*Cabeçalho*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+html{
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+}
+.senpai .yukino{
+    display: flex;
+    list-style: none;
+    color: aliceblue;
+}
+.yukino a{
+    color: aliceblue;
+}
+.yukino.active {
+    transform: translateX(0);
+}
+.yukino li{
+    margin-left: 32px;
+}
+@media (max-width: 900px){
+    body{
+        width: 1150px;
+    }
+}
+body{
+    background-color: white;
+    height: auto;
+}
+header{
+    width: 100%;
+    height: 85px;
+    background: black;
+}
+.senpai{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+    justify-content: space-around;
+}
+.senpai h1{
+    color: aliceblue;
+}
+header .senpai a h1:hover{
+    color: red;
+}
+.senpai .yukino{
+    display: flex;
+    list-style: none;
+    color: aliceblue;
+    justify-content: space-around;
+}
+.yukino a{
+    color: aliceblue;
+}
+.yukino{
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-size: 21px;
+}
+.senpai .yukino a{
+    text-decoration: none;
+    color: aliceblue;
+    transform: 3ms ease-in;
+    position: relative;
+}
+.senpai .yukino a:before{
+    content: ' ';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    height: 2px;
+    background-color: red;
+    transition: all 1.5s ease;
+}
+.senpai .yukino a:hover:before{
+    width: 100%;
+}
+.searchbox{
+    height: 20px;
+    border-radius: 10px;
+    padding: 8px;
+    margin-top: -15px;
+}
+.btn{
+    margin-left: 5px;
+    margin-top: 8px;
+    color: aliceblue;
+    float: right;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+}
+.searchtxt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: red;
+    font-size: 12px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+.searchbox:hover > .searchtxt{
+    width: 200px;
+    padding: 0.6px;
+}
+.emma{
+    height: 42px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background: white;
+    border-bottom: 2px solid black;
+}
+.diva{
+    margin-top: 6px;
+    display: flex;
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    gap: 18px;
+
+}
+.vivy{
+    width: 58%;
+    margin-top: 6px;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.aoba{
+    width: 6%;
+    margin-top: 8px;
+    display: flex;
+    list-style: none;
+    gap: 18px;
+    margin-left: 130px;
+}
+.majogari{
+    color: black;
+    font-size: 30px;
+}
+.velório{
+    color: black;
+    font-size: 30px;
+}
+.crisantemo{
+    color: black;
+    font-size: 19px;
+}
+.ssr{
+    font-size: 14px;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 6.5px;
+    border: 2px solid black;
+    color: black;
+    background-color: transparent;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    border-radius: 20px;
+    position: relative;
+    transition: 0.5s;
+}
+.ssr:hover{
+    color: red;
+    border: 2px solid black;
+    background-color: black;
+}
+.crisantemo1{
+    margin-left: 40px;
+    color: black;
+    font-size: 19px;
+}
+.vivy li a:hover{
+    color: red;
+}
+.aoba li a:hover{
+    color: red;
+}
+/*Final do Cabeçalho*/
+.per{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(file:///C:/Users/Família%20Morais/Desktop/js%20html%20css/Project%20Kaguya%20Chan/imgs/entre.jpg);
+    border-bottom: 2px solid black;
+}
+.personagens{
+    width: 900px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    border: 3px solid black;
+}
+.trendings{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.trendings h1{
+    letter-spacing: 0.1em;
+}
+.trendings h5{
+    margin-top: 10px;
+    color: rgb(105, 102, 102);
+}
+.trendings p{
+    margin-top: 30px;
+    font-size: 14px;
+}
+.trendings p a:hover{
+    color: crimson;
+}
+.trendings p a{
+    color: black;
+}
+.trendings b{
+    color: black;
+}
+.trendings h3{
+    margin-top: 45px;
+    letter-spacing: 0.09em;
+}
+.principais{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.principais2{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+.trendings img{
+    position: relative;
+    display: flex;
+    width: 153px;
+    height: 140px;
+    margin-bottom: 11px;
+}
+.line{
+    margin-top: 20px;
+    border-top: 2px solid black;
+}
+.allitems{
+    margin-top: 50px;
+    margin-left: 30px;   
+    margin-bottom: 30px;
+}
+.allitems h3{
+    margin-top: 45px;
+    letter-spacing: 0.09em;
+}
+.allitems b{
+    color: black;
+}
+.allitems img{
+    position: relative;
+    display: flex;
+    width: 153px;
+    height: 140px;
+    margin-bottom: 11px;
+}
+#branco{
+    width: 153px;
+    height: 140px;
+}
+.trendings b:hover{
+    color: red;
+}
+.allitems b:hover{
+    color: red;
+}
+.aparente img{position:relative}
+.aparente img:hover{top:-8px;box-shadow:-2 2px 2px #666}
+/*rodapé*/
+footer{
+    padding: 60px 0 55px;
+    margin-bottom: 10px;
+}
+.bordering{
+    border-right: 2px solid #333;
+    padding: 0 18px;
+}
+#gap{
+    padding: 0 18px;
+}
+.half{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+footer .half ul li{
+    margin-bottom: 10px;
+}
+footer .half ul li a:hover{
+    color: red;
+}
+footer .half ul li a{
+    color: black;
+}
+.priv{
+    font-size: 14px;
+    margin-bottom: 10px;
+    list-style: none;
+    display: flex;
+    text-transform: uppercase;
+}
+
+.copyright{
+    font-size: 12px;
+    overflow-wrap: break-word;
+    text-align: center;
+    letter-spacing: 1px;
+    color: darkgrey;
+}
+
+/*final do rodapé*/

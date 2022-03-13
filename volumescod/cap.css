@@ -1,0 +1,446 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+html{
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 900px){
+    body{
+        width: 1150px;
+    }
+}
+
+body{
+    background-color: white;
+}
+header{
+    width: 100%;
+    height: 85px;
+    background: black;
+}
+.senpai{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+    justify-content: space-around;
+}
+.senpai h1{
+    color: aliceblue;
+}
+header .senpai a h1:hover{
+    color: red;
+}
+.senpai .yukino{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: aliceblue;
+}
+.yukino a{
+    color: aliceblue;
+}
+.yukino{
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-size: 21px;
+}
+.senpai .yukino a{
+    text-decoration: none;
+    color: aliceblue;
+    transform: 3ms ease-in;
+    position: relative;
+}
+.senpai .yukino a:before{
+    content: ' ';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    height: 2px;
+    background-color: red;
+    transition: all 1.5s ease;
+}
+.senpai .yukino a:hover:before{
+    width: 100%;
+}
+.searchbox{
+    height: 20px;
+    border-radius: 10px;
+    padding: 8px;
+    margin-top: -15px;
+}
+.btn{
+    margin-left: 5px;
+    margin-top: 8px;
+    color: aliceblue;
+    float: right;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+}
+.searchtxt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: red;
+    font-size: 12px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+.searchbox:hover > .searchtxt{
+    width: 200px;
+    padding: 0.6px;
+}
+.emma{
+    height: 42px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background: white;
+    border-bottom: 2px solid black;
+}
+.diva{
+    margin-top: 6px;
+    display: flex;
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    gap: 18px;
+
+}
+.vivy{
+    width: 58%;
+    margin-top: 6px;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.aoba{
+    width: 6%;
+    margin-top: 8px;
+    display: flex;
+    list-style: none;
+    gap: 18px;
+    margin-left: 130px;
+}
+.majogari{
+    color: black;
+    font-size: 30px;
+}
+.velório{
+    color: black;
+    font-size: 30px;
+}
+.crisantemo{
+    color: black;
+    font-size: 19px;
+}
+.ssr{
+    font-size: 14px;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 6.5px;
+    border: 2px solid black;
+    color: black;
+    background-color: transparent;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    border-radius: 20px;
+    position: relative;
+    transition: 0.5s;
+}
+.ssr:hover{
+    color: red;
+    border: 2px solid black;
+    background-color: black;
+}
+.crisantemo1{
+    margin-left: 40px;
+    color: black;
+    font-size: 19px;
+}
+.vivy li a:hover{
+    color: red;
+}
+.aoba li a:hover{
+    color: red;
+}
+/*Final do Cabeçalho*/
+
+/*final do cabeçalho*/
+/*principal atual*/
+
+.principal img{
+    width: 225px;
+    height: 320px;
+    margin-top: 9px;
+    margin-left: 158px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+.principal{
+    background: url(file:///C:/Users/Família%20Morais/Desktop/js%20html%20css/Project%20Kaguya%20Chan/imgs/entre.jpg);
+    display: flex;
+    padding-top: 30px;
+    border-bottom: 2px solid black;
+}
+.letras{
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin-left: 18px;
+    width: 58%;
+}
+.letras span h1{
+    margin-bottom: 2px;
+    padding-top: 30px;
+}
+.principal .generos ul li{
+    display: inline-block;
+    min-height: 36px;
+    position: relative;
+    margin-top: 20px;
+    z-index: 10;
+    padding-right: 8px;
+    font-family: sans-serif;
+    margin-bottom: 14px;
+    font-weight: 800;
+}
+.lea{
+    margin-top: 20px;
+    list-style: none;
+    gap: 10px;
+    display: flex;
+}
+.crisantemo2{
+    font-size: 19px;
+}
+.ssr2{
+    font-size: 14px;
+    cursor: pointer;
+    width: 155px;
+    height: 30px;
+    margin-bottom: 6.5px;
+    border: 2px solid black;
+    color: black;
+    background-color: transparent;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    border-radius: 20px;
+    position: relative;
+    transition: 0.5s;
+}
+.ssr2:hover{
+    color: red;
+    border: 2px solid black;
+    background-color: black;
+}
+
+/*pricipal atual final*/
+/*divisão*/
+.toi{
+    gap: 20px;
+    display: flex;
+    width: 100%;
+    height: 33px;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    border-bottom: solid 2px black;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.toi h4{
+    padding-top: 2px;
+}
+#starw{
+    padding-top: 2px;
+    margin-left: 118px;
+}
+.toi #starw:hover{
+    color: red;
+}
+/*divisão final*/
+/*capiitulos do mangá*/
+
+.listcaps .listcap{
+    max-height: 660px;
+    display: block;
+    overflow: hidden;
+    word-break: break-word;
+    word-wrap: break-word;
+    line-height: 30px;
+    position: relative;
+}
+.listcap{
+    padding-left: 0;
+    margin-top: -15;
+    margin-bottom: 20px;
+}
+.cap{
+    border-bottom: 2px solid #ebebeb;
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    list-style: none;
+    display: list-item;
+}
+.cap a{
+    font-weight: 600;
+    padding-left: 180px;
+    color: #333;
+    background-color: transparent;
+    text-decoration: none;
+}
+.caps .listcaps .listcap .cap a:hover{
+    color: red;
+}
+#dois0{
+    padding-left: 740px;
+}
+.cap span{
+    position: absolute;
+    top: 50%;
+    padding-left: 750px;
+    transform: translateY(-50%);
+    font-size: .8em;
+    line-height: 1em;
+}
+/*capítulos do mangá final*/
+
+/*divisão*/
+.toia{
+    gap: 20px;
+    display: flex;
+    width: 100%;
+    height: 35px;
+    margin-top: 37px;
+    margin-bottom: 15px;
+    border-top: 2px solid black;
+    border-bottom: solid 2px black;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.toia h4{
+    padding-top: 4px;
+}
+#starww{
+    padding-top: 4px;
+    margin-left: 118px;
+}
+.toia #starww:hover{
+    color: red;
+}
+/*divisão final*/
+
+.vcpode{
+    border-bottom: 2px solid black;
+    height: 340px;
+} 
+.rika2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 25px;
+    display: flex;
+    gap: 43px;
+}
+.rika2 h4{
+    color: black;
+    margin-top: 2px;
+}
+.rika2 img{
+    width: 148px;
+    height: 213px;
+}
+.rika2 h6{
+    color: grey;
+    font-size: 12px;
+    letter-spacing: 0.7px;
+}
+.hoshi{
+    padding-top: 11px;
+}
+
+#teste1{position:relative}
+#teste1:hover{top:-8px;box-shadow:--2 2px 2px #666}
+
+#teste2{position:relative}
+#teste2:hover{top:-8px;box-shadow:-2 2px 2px #666}
+
+#teste3{position:relative}
+#teste3:hover{top:-8px;box-shadow:-2 2px 2px #666}
+
+#teste4{position:relative}
+#teste4:hover{top:-8px;box-shadow:-2 2px 2px #666}
+
+#teste5{position:relative}
+#teste5:hover{top:-8px;box-shadow:-2 2px 2px #666}
+
+/*rodapé*/
+footer{
+    padding: 60px 0 55px;
+    margin-bottom: 10px;
+}
+.bordering{
+    border-right: 2px solid #333;
+    padding: 0 18px;
+}
+#gap{
+    padding: 0 18px;
+}
+.half{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+footer .half ul li{
+    margin-bottom: 10px;
+}
+footer .half ul li a:hover{
+    color: red;
+}
+footer .half ul li a{
+    color: black;
+}
+.priv{
+    font-size: 14px;
+    margin-bottom: 10px;
+    list-style: none;
+    display: flex;
+    text-transform: uppercase;
+}
+
+.copyright{
+    font-size: 12px;
+    overflow-wrap: break-word;
+    text-align: center;
+    letter-spacing: 1px;
+    color: darkgrey;
+}
+
+/*final do rodapé*/
